@@ -1,2 +1,28 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Java & Maven
 *.class
+target/
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Scraper Output artifacts
+output/
+*.csv
+*.json
+!pom.xml
